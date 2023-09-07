@@ -54,12 +54,12 @@ header {
     
 }
 
-.block h3 {
+h3, h4 {
     font-family: 'Orbitron', sans-serif;
     word-spacing: 5px;
 }
 
-.block p {
+p {
     font-family: 'Open Sans', sans-serif;;
 }
 
@@ -92,21 +92,39 @@ header {
 
 /* motivational content styling */
 .motiv-content {
-    height: 80vh;
+    height: 100%;
     background-color: black;
-    
+    gap: 20px;
+    color: white;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    margin: 10px;
+    
 }
 
 .article {
     border: 1px solid white;
-    height: 40vh;
-    width: 30vw;
     background-color: rgba(128, 123, 123,0.6);
     border-radius: 20px;
+    
+    display: flex;
+
+    flex: 1 1 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 10px;
+
+    font-size: 1.3em;
 }
+
+
 
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -147,11 +165,19 @@ header {
 
 /* Contact details styling  */
 .contact-container {
-    background-color: rgb(65, 65, 65);
+    background-color: rgba(65, 65, 65, 0.178);
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    flex-direction: column;
+    color: white;
+
+}
+.member-container {
+    display: flex;
+    flex-direction: row;
 }
 
 .contact-details {
@@ -161,6 +187,8 @@ header {
     height: 50vh;
     width: 50vw;
     flex-direction: column;
+    text-align: center;
+    
 
 }
 
@@ -186,23 +214,20 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 
 }
 
-.img {
-    margin: 20px;
-  background-color: white;
-  border: 1px solid white;
-  width: 150px;
-  height: 150px;  
+.img img{
+    width: 200px;
+    height: auto;   
 }
 
 .img-details {
-    background-color: rgb(0, 0, 0);
-    border: 1px solid white;
-    width: 100px;
+    
+    border-top: 1px solid white;
+    width: 200px;
     height: 20px;
-    margin-bottom:10px ;
 }
 
 
