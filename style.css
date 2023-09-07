@@ -93,7 +93,7 @@ p {
 /* motivational content styling */
 .motiv-content {
     height: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     gap: 20px;
     color: white;
     flex-wrap: wrap;
@@ -131,19 +131,19 @@ p {
 
 /* types of websites styling */
 .webtype-container {
-    background-color: white;
-    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.507);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
 
 }
 
-.image {
-    flex: 1;
+.carousel {
+    
     background-color: black;
-    height: 60vh;
-
+    height: auto;
+    
     margin-left: 30px;
     margin-right: 20px;
 
@@ -154,7 +154,7 @@ p {
 
 .desc {
     flex: 1;
-    background-color: rgb(250, 0, 0);
+    background-color: red;
     height: 50vh;
     text-align: center;
     color: white;
