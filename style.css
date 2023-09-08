@@ -84,12 +84,12 @@ p {
 .left {
     grid-area: 1/1/3/2;
     margin-top: 100px;
-    margin-bottom: 70%;
+    margin-bottom: 600px;
 }
 .right {
     grid-area: 1/3/3/4;
     margin-top: 100px;
-    margin-bottom: 70%;
+    margin-bottom: 600px;
 
     font-family: 'Orbitron', sans-serif;
     word-spacing: 10px;
@@ -101,6 +101,13 @@ p {
     border: none;
     background: none;
     
+}
+.top img {
+  width: 90%;
+  border-radius: 20px;
+  opacity: 80%;
+
+
 }
 
 .bot {
